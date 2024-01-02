@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.be4763a5.css",
+    "main.css": "/website/static/css/main.865a79d2.css",
     "main.js": "/website/static/js/main.62db95a2.js",
     "static/js/787.5b7a354f.chunk.js": "/website/static/js/787.5b7a354f.chunk.js",
     "static/media/rimaz-intro.mp4": "/website/static/media/rimaz-intro.428c62dc697c44370420.mp4",
@@ -18,12 +18,12 @@
     "index.html": "/website/index.html",
     "static/media/seo.svg": "/website/static/media/seo.957a110997bdb638532a7b02e9133299.svg",
     "static/media/software.svg": "/website/static/media/software.0aa1ee3c57f8d1e65c2ebce777a17cad.svg",
-    "main.be4763a5.css.map": "/website/static/css/main.be4763a5.css.map",
+    "main.865a79d2.css.map": "/website/static/css/main.865a79d2.css.map",
     "main.62db95a2.js.map": "/website/static/js/main.62db95a2.js.map",
     "787.5b7a354f.chunk.js.map": "/website/static/js/787.5b7a354f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4763a5.css",
+    "static/css/main.865a79d2.css",
     "static/js/main.62db95a2.js"
   ]
 }
