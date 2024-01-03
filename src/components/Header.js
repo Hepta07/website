@@ -8,7 +8,7 @@ const Header = () => {
     if (link === "home") {
       window.location.href = "/";
     } else {
-      window.location.href = `#/${link}`;
+      window.location.href = `/${link}`;
     }
     // Scroll to the top of the page
     window.scrollTo(0, 0);
@@ -16,9 +16,10 @@ const Header = () => {
 
   useEffect(() => {
     const handleHashChange = () => {
-      const currentPath = window.location.hash.substring(2); // Adjusted to remove the leading "/#"
+      const currentPath = window.location.pathname.substring(1);
       setActiveLink(currentPath || "home");
     };
+    
 
     // Attach the event listener for hash changes
     window.addEventListener("hashchange", handleHashChange);
