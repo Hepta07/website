@@ -2,5 +2,5 @@
 User-agent: *
 Disallow:
 Allow: /
-Allow: /about
-Allow : /schedule-a-call
+Allow: /#/about
+Allow : /#/schedule-a-call
