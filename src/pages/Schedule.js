@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import Marquee from "react-fast-marquee";
+import { Helmet } from "react-helmet-async";
 
 const Schedule = () => {
   useEffect(() => {
@@ -20,10 +21,15 @@ const Schedule = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Hepta | Schedule a call</title>
+        <meta name="description" content="Got and idea. Lets connect!" />
+      </Helmet>
       <a href="/">
         <img
           src={require("../assets/img/heptalogo3.png")}
           alt="Hepta"
+          title="Hepta"
           className="d-block mx-auto w-[80px] mt-5 xl:w-[150px] "
         />
       </a>
@@ -47,7 +53,11 @@ const Schedule = () => {
           </Marquee>
 
           <p className="text-[20px] text-center font-thin">
-            From pixels to profits unlock your business potential. Schedule a call today or mail us on  <a href="mailto:hello@hepta.lk" className="font-medium rounded">hello@hepta.lk</a>
+            From pixels to profits unlock your business potential. Schedule a
+            call today or mail us on{" "}
+            <a href="mailto:hello@hepta.lk" className="font-medium rounded">
+              hello@hepta.lk
+            </a>
           </p>
 
           <Cal

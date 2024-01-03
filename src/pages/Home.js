@@ -9,12 +9,20 @@ import ReactBeforeSliderComponent from "react-after-before-slider";
 import "react-after-before-slider/dist/build.css";
 import animationData from "../assets/hero-anim-2.json";
 import swipeAnimationData from "../assets/swipe.json";
+import { Helmet } from "react-helmet-async";
 
 const cwOldImg = {
   imageUrl: require("../assets/img/Ceylon-wedding-old.png"),
+  alt: "Old Ceylon Wedding",
+  title: "Old Ceylon Wedding",
+  loading: "lazy",
 };
+
 const cwNewImg = {
   imageUrl: require("../assets/img/Ceylon-wedding-new.png"),
+  alt: "Redesigned Ceylon Wedding",
+  title: "Redesigned Ceylon Wedding",
+  loading: "lazy",
 };
 
 const Home = () => {
@@ -78,10 +86,19 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Hepta</title>
+        <meta
+          name="description"
+          content="Passionate experts in software, design, marketing, finance, and management, collaborating to create remarkable success."
+        />
+      </Helmet>
+
       <a href="/">
         <img
           src={require("../assets/img/heptalogo3.png")}
           alt="Hepta"
+          title="Hepta"
           className="d-block mx-auto w-[80px] mt-5 xl:w-[150px] "
         />
       </a>
@@ -92,40 +109,48 @@ const Home = () => {
             className="absolute top-0 left-0 w-screen h-screen -z-50 opacity-30"
           ></div>
           <div className="xl:container mx-auto h-full">
-            <div className="px-10 text-[#4f4f4f] w-full">
-              <h1
-                className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
-                data-aos="fade-right"
-              >
-                Turn <span className="font-medium text-black">your</span>
-              </h1>
-            </div>
+            <h1>
+              <div className="px-10 text-[#4f4f4f] w-full">
+                <h2
+                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  data-aos="fade-right"
+                >
+                  Turn <span className="font-medium text-black">your </span>
+                </h2>
+              </div>
 
-            <div
-              className={`border ${borderAnimation ? "border-animation" : ""}`}
-            ></div>
-            <div className="px-10 text-[#4f4f4f] w-full text-right">
-              <h1
-                className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
-                data-aos="fade-left"
-              >
-                <span className="font-medium text-black">ideas</span> into
-              </h1>
-            </div>
-            <div
-              className={`border ${borderAnimation ? "border-animation" : ""}`}
-            ></div>
-            <div className="px-10 text-[#4f4f4f] w-full">
-              <h1
-                className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
-                data-aos="fade-right"
-              >
-                <span className="font-medium text-black">reality</span> today
-              </h1>
-            </div>
-            <div
-              className={`border ${borderAnimation ? "border-animation" : ""}`}
-            ></div>
+              <div
+                className={`border ${
+                  borderAnimation ? "border-animation" : ""
+                }`}
+              ></div>
+              <div className="px-10 text-[#4f4f4f] w-full text-right">
+                <h2
+                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  data-aos="fade-left"
+                >
+                  <span className="font-medium text-black">ideas</span> into
+                </h2>
+              </div>
+              <div
+                className={`border ${
+                  borderAnimation ? "border-animation" : ""
+                }`}
+              ></div>
+              <div className="px-10 text-[#4f4f4f] w-full">
+                <h2
+                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  data-aos="fade-right"
+                >
+                  <span className="font-medium text-black"> reality</span> today
+                </h2>
+              </div>
+              <div
+                className={`border ${
+                  borderAnimation ? "border-animation" : ""
+                }`}
+              ></div>
+            </h1>
           </div>
         </section>
 
@@ -134,9 +159,11 @@ const Home = () => {
             <div class="flex justify-around items-center">
               <div class="has-tooltip">
                 <img
+                  loading="lazy"
                   src={require("../assets/img/Ceylon-Wedding.png")}
                   className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
-                  alt=""
+                  alt="Ceylon Wedding"
+                  title="Ceylon Wedding"
                 />
                 <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
@@ -144,9 +171,11 @@ const Home = () => {
               </div>
               <div class="has-tooltip">
                 <img
+                  loading="lazy"
                   src={require("../assets/img/Royal Enfield.png")}
                   className="invert w-[100px] sm:w-[180px] lg:w-[250px] opacity-25 hover:opacity-100"
-                  alt=""
+                  alt="Royal Enfield"
+                  title="Royale Enfield LK"
                 />
                 <span class="ml-10 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
@@ -154,9 +183,11 @@ const Home = () => {
               </div>
               <div class="has-tooltip">
                 <img
+                  loading="lazy"
                   src={require("../assets/img/yarn-logo.jpg")}
                   className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
-                  alt=""
+                  alt="Yarn Clothing"
+                  title="Yarn Clothing"
                 />
                 <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
@@ -193,9 +224,11 @@ const Home = () => {
               data-aos="fade-up"
             >
               <img
+                loading="lazy"
                 src={require("../assets/img/Ceylon-Wedding.png")}
                 alt="Ceylon Wedding"
                 className="lg:border-r-2 lg:border-r-[#dddddd] lg:pr-10 w-[180px] xl:w-[250px]"
+                title="Ceylon Wedding"
               />
               <div className=" pt-10 lg:pt-0 lg:pl-10">
                 <p className="text-[16px]">
@@ -217,6 +250,7 @@ const Home = () => {
           className="media-element container mx-auto relative"
           data-aos="fade-up"
           onClick={handleMediaElementClick}
+          onDrag={handleMediaElementClick}
         >
           {isSwipeContainerVisible && (
             <div
@@ -225,8 +259,18 @@ const Home = () => {
             ></div>
           )}
           <ReactBeforeSliderComponent
-            secondImage={cwOldImg}
-            firstImage={cwNewImg}
+            secondImage={{
+              imageUrl: cwOldImg.imageUrl,
+              alt: cwOldImg.alt,
+              title: cwOldImg.title,
+              loading: cwOldImg.loading,
+            }}
+            firstImage={{
+              imageUrl: cwNewImg.imageUrl,
+              alt: cwNewImg.alt,
+              title: cwNewImg.title,
+              loading: cwNewImg.loading,
+            }}
             currentPercentPosition={25}
             withResizeFeel={true}
           />
@@ -269,11 +313,13 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/ui-ux.png")}
                     width={"50px"}
                     alt="UI/UX Design"
+                    title="UI/UX Design"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">UI/UX Design</h4>
+                  <h3 className="text-[24px] lg:text-[34px]">UI/UX Design</h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     Craft intuitive interfaces and user journeys that drive
                     engagement and results.
@@ -284,11 +330,13 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/seo.svg").default}
                     width={"50px"}
                     alt="Search Engine Optimiztion"
+                    title="SEO"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">SEO</h4>
+                  <h3 className="text-[24px] lg:text-[34px]">SEO</h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     Get your website found and attract qualified leads with our
                     data-driven SEO strategies.
@@ -301,11 +349,13 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/research.svg").default}
                     width={"50px"}
                     alt="User Research"
+                    title="User Research"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">User Research</h4>
+                  <h3 className="text-[24px] lg:text-[34px]">User Research</h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     Gain actionable insights into user needs and behaviors to
                     build products people love.
@@ -316,13 +366,15 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/software.svg").default}
                     width={"50px"}
                     alt="Software Development"
+                    title="Software Development"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">
+                  <h3 className="text-[24px] lg:text-[34px]">
                     Software Development
-                  </h4>
+                  </h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     From concept to deployment, we develop tailored software
                     applications that solve your unique challenges.
@@ -335,13 +387,15 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/pm.svg").default}
                     width={"50px"}
                     alt="Project Management"
+                    title="Project Management"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">
+                  <h3 className="text-[24px] lg:text-[34px]">
                     Project Maintenance
-                  </h4>
+                  </h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     We bring order to chaos, ensuring your projects are
                     completed successfully and efficiently.
@@ -352,13 +406,15 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/web.svg").default}
                     width={"50px"}
                     alt="Web Development"
+                    title="Web Development"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">
+                  <h3 className="text-[24px] lg:text-[34px]">
                     Web Development
-                  </h4>
+                  </h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     We build modern, responsive websites that deliver
                     exceptional user experiences and drive results.
@@ -369,11 +425,13 @@ const Home = () => {
                   data-aos="fade-up"
                 >
                   <img
+                    loading="lazy"
                     src={require("../assets/img/branding.svg").default}
                     width={"50px"}
                     alt="Branding"
+                    title="Branding"
                   />
-                  <h4 className="text-[24px] lg:text-[34px]">Branding</h4>
+                  <h3 className="text-[24px] lg:text-[34px]">Branding</h3>
                   <p className="text-[13px] lg:text-[18px] font-thin">
                     We help you define your brand story, create a consistent
                     brand identity, and connect with your target audience.
@@ -407,6 +465,7 @@ const Home = () => {
               <source
                 src={require("../assets/rimaz-intro.mp4")}
                 type="video/mp4"
+                title="Why Hepta"
               />
             </video>
           </div>
@@ -456,7 +515,7 @@ const Home = () => {
           <div className="md:flex w-full gap-10">
             <div className="w-full mb-4 md:mb-0" data-aos="fade-up">
               <div className="mb-2">
-                <img
+                <img loading="lazy"
                   src={require('../assets/img/blog-1.png')}
                   className="rounded-[20px] mb-5 font-bolder w-full"
                   alt=""
@@ -472,7 +531,7 @@ const Home = () => {
             </div>
             <div className="w-full mb-4 md:mb-0" data-aos="fade-up">
               <div className="mb-2">
-                <img
+                <img loading="lazy"
                   src={require('../assets/img/blog-2.png')}
                   className="rounded-[20px] mb-5 font-bolder w-full"
                   alt=""
@@ -488,7 +547,7 @@ const Home = () => {
             </div>
             <div className="w-full mb-4 md:mb-0" data-aos="fade-up">
               <div className="mb-2">
-                <img
+                <img loading="lazy"
                   src={require('../assets/img/blog-3.png')}
                   className="rounded-[20px] mb-5 font-bolder w-full"
                   alt=""

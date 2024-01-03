@@ -5,11 +5,31 @@ const Header = () => {
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
+    if (link === "home") {
+      window.location.href = "/";
+    } else {
+      window.location.href = `#/${link}`;
+    }
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
-    const currentPath = window.location.pathname;
-    setActiveLink(currentPath.replace("/", "") || "home");
+    const handleHashChange = () => {
+      const currentPath = window.location.hash.substring(2); // Adjusted to remove the leading "/#"
+      setActiveLink(currentPath || "home");
+    };
+
+    // Attach the event listener for hash changes
+    window.addEventListener("hashchange", handleHashChange);
+
+    // Initial setup
+    handleHashChange();
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
   }, []);
 
   const isLinkActive = (link) => (activeLink === link ? "active" : "");
@@ -18,8 +38,7 @@ const Header = () => {
     <>
       <header className="sticky bottom-[10px] w-full flex justify-center z-50">
         <nav className="p-2 text-[13px] rounded-[20px] bg-[#ffffff] bg-opacity-70 backdrop-blur-lg text-[#000] lg:text-[18px] font-light flex gap-4 md:gap-8 justify-center items-center">
-          <a
-            href="/"
+          <div
             className={`bg-[#222222] py-4 px-4 rounded-[10px] ${isLinkActive(
               "home"
             )}`}
@@ -28,33 +47,31 @@ const Header = () => {
             <img
               src={require("../assets/img/HeptaLogo-2.svg").default}
               alt="Hepta"
+              title="Hepta"
               className="d-block mx-auto w-[15px] xl:w-[25px] invert"
             />
-          </a>
+          </div>
           <div className="gap-0 md:gap-2 flex">
-            <a
-              href="/"
+            <div
               className={`py-2 px-4 hover:font-medium ${isLinkActive("home")}`}
               onClick={() => handleLinkClick("home")}
             >
               Home
-            </a>
-            <a
-              href="#/about"
+            </div>
+            <div
               className={`py-2 px-4 hover:font-medium ${isLinkActive("about")}`}
               onClick={() => handleLinkClick("about")}
             >
               About
-            </a>
-            <a
-              href="#/schedule-a-call"
+            </div>
+            <div
               className={`ml-4 py-2 px-4 border border-[#454545] hover:bg-[#000] hover:text-[#fff] rounded-[10px] ${isLinkActive(
-                "schedule"
+                "schedule-a-call"
               )}`}
-              onClick={() => handleLinkClick("schedule")}
+              onClick={() => handleLinkClick("schedule-a-call")}
             >
               Schedule a call
-            </a>
+            </div>
           </div>
         </nav>
       </header>

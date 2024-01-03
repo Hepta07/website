@@ -3,6 +3,7 @@ import AOS from "aos";
 import Marquee from "react-fast-marquee";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   useEffect(() => {
@@ -16,10 +17,18 @@ const About = () => {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>About</title>
+        <meta
+          name="description"
+          content="The UX bridge between you and your company's vision"
+        />
+      </Helmet>
       <a href="/">
         <img
           src={require("../assets/img/heptalogo3.png")}
           alt="Hepta"
+          title="Hepta"
           className="d-block mx-auto w-[80px] mt-5 xl:w-[150px] "
         />
       </a>
@@ -42,15 +51,16 @@ const About = () => {
                 <img
                   src={require("../assets/img/co-founder-sign.png")}
                   className="w-[250px] saturate-200"
-                  alt=""
+                  alt="Co-founder Sign"
+                  title="Co-founder Sign"
                 />
               </div>
               <div data-aos="fade-up">
                 <img
                   src={require("../assets/img/Coworking-pana .svg").default}
-                  alt=""
+                  alt="Teamwork is Key"
+                  title="About Hero"
                   className="w-full object-cover object-top rounded-[20px]"
-                  srcset=""
                 />
               </div>
             </div>
@@ -64,7 +74,8 @@ const About = () => {
                 <img
                   src={require("../assets/img/Ceylon-Wedding.png")}
                   className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
-                  alt=""
+                  alt="Ceylon Wedding"
+                  title="Ceylon Wedding"
                 />
                 <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
@@ -74,7 +85,8 @@ const About = () => {
                 <img
                   src={require("../assets/img/Royal Enfield.png")}
                   className="invert w-[100px] sm:w-[180px] lg:w-[250px] opacity-25 hover:opacity-100"
-                  alt=""
+                  alt="Royal Enfield"
+                  title="Royal Enfield"
                 />
                 <span class="ml-10 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
@@ -84,7 +96,8 @@ const About = () => {
                 <img
                   src={require("../assets/img/yarn-logo.jpg")}
                   className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
-                  alt=""
+                  alt="Yarn Clothing"
+                  title="Yarn Clothing"
                 />
                 <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
