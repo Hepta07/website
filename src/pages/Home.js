@@ -92,6 +92,8 @@ const Home = () => {
           name="description"
           content="Passionate experts in software, design, marketing, finance, and management, collaborating to create remarkable success."
         />
+
+        <link rel="canonical" href="/" />
       </Helmet>
 
       <a href="/">

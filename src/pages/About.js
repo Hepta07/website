@@ -23,6 +23,8 @@ const About = () => {
           name="description"
           content="The UX bridge between you and your company's vision"
         />
+
+        <link rel="canonical" href="/about" />
       </Helmet>
       <a href="/">
         <img

@@ -24,6 +24,8 @@ const Schedule = () => {
       <Helmet>
         <title>Hepta | Schedule a call</title>
         <meta name="description" content="Got and idea. Lets connect!" />
+
+        <link rel="canonical" href="/schedule-a-call" />
       </Helmet>
       <a href="/">
         <img
