@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3151f9fb.css",
+    "main.js": "/static/js/main.e67289f9.js",
+    "static/js/787.5b7a354f.chunk.js": "/static/js/787.5b7a354f.chunk.js",
+    "static/media/rimaz-intro.mp4": "/static/media/rimaz-intro.428c62dc697c44370420.mp4",
+    "static/media/Ceylon-wedding-new.png": "/static/media/Ceylon-wedding-new.43a00406e8c4a6c11443.png",
+    "static/media/Ceylon-wedding-old.png": "/static/media/Ceylon-wedding-old.114974dfce755f877e5f.png",
+    "static/media/Ceylon-Wedding.png": "/static/media/Ceylon-Wedding.7b4353a8f6d73c05594f.png",
+    "static/media/Royal Enfield.png": "/static/media/Royal Enfield.26068a5e896461c865ac.png",
+    "static/media/Coworking-pana .svg": "/static/media/Coworking-pana .d096df9063c9b279d5aba2d32268882d.svg",
+    "static/media/co-founder-sign.png": "/static/media/co-founder-sign.2f5e71487238fba5c82b.png",
+    "static/media/HeptaLogo-2.svg": "/static/media/HeptaLogo-2.974777f8bceebae03b27e50334c25b16.svg",
+    "static/media/research.svg": "/static/media/research.5a99e2cdb0cf5d80d1fa30b63f3b5038.svg",
+    "index.html": "/index.html",
+    "static/media/pm.svg": "/static/media/pm.1968e4349fad24dbfc42e9218a2b01fc.svg",
+    "static/media/web.svg": "/static/media/web.10b8aa1e5b839cb21700fd5d02c9e2e7.svg",
+    "static/media/branding.svg": "/static/media/branding.3c5b8235d9e6a3fc1c450ffaa686de59.svg",
+    "static/media/seo.svg": "/static/media/seo.957a110997bdb638532a7b02e9133299.svg",
+    "static/media/software.svg": "/static/media/software.0aa1ee3c57f8d1e65c2ebce777a17cad.svg",
+    "main.3151f9fb.css.map": "/static/css/main.3151f9fb.css.map",
+    "main.e67289f9.js.map": "/static/js/main.e67289f9.js.map",
+    "787.5b7a354f.chunk.js.map": "/static/js/787.5b7a354f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3151f9fb.css",
+    "static/js/main.e67289f9.js"
+  ]
+}
