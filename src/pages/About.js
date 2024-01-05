@@ -42,7 +42,7 @@ const About = () => {
                 <h1 className="text-[55px] xl:text-[70px]">
                   Crafting joyful <br /> journeys
                 </h1>
-                <div className="text-[16px] lg:text-[20px] font-thin mt-2 mb-8">
+                <div className="text-[16px] lg:text-[20px] font-light mt-2 mb-8 text-[#6e6e6e]">
                   Our team at Hepta is more than just a collection of
                   individuals. We are a finely tuned orchestra melody to the
                   symphony of success. With diverse backgrounds and expertise
@@ -133,7 +133,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Storytelling Brilliance</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Captivate users and build brand loyalty through compelling
                   narratives that resonate and inspire.
                 </p>
@@ -143,7 +143,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Global Consciousness</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Embrace diversity and inclusion, actively seeking perspectives
                   from different backgrounds and cultures.
                 </p>
@@ -153,7 +153,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Sustainable Hustle</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Prioritize long-term growth and environmental responsibility,
                   ensuring your business thrives while minimizing its footprint.
                 </p>
@@ -163,7 +163,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Bold Innovation</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Embrace new ideas and disruptive technologies, constantly
                   pushing boundaries and seeking solutions beyond the
                   conventional
@@ -176,7 +176,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Unleashing Potential</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Empower employees to reach their full potential, providing the
                   resources and support they need to grow and contribute their
                   unique strengths.
@@ -187,7 +187,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Growth-Driven Learning</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Prioritize continuous learning and development, investing in
                   skills and knowledge to stay relevant and competitive.
                 </p>
@@ -197,7 +197,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h2 className="text-[32px]">Operational Excellence</h2>
-                <p className="font-thin">
+                <p className="font-light text-[#6e6e6e]">
                   Continuously strive to optimize performance, eliminate waste,
                   and achieve exceptional efficiency in every aspect of the
                   business.

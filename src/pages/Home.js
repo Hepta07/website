@@ -321,7 +321,7 @@ const Home = () => {
                     title="UI/UX Design"
                   />
                   <h3 className="text-[24px] lg:text-[34px]">UI/UX Design</h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     Craft intuitive interfaces and user journeys that drive
                     engagement and results.
                   </p>
@@ -338,7 +338,7 @@ const Home = () => {
                     title="SEO"
                   />
                   <h3 className="text-[24px] lg:text-[34px]">SEO</h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     Get your website found and attract qualified leads with our
                     data-driven SEO strategies.
                   </p>
@@ -357,7 +357,7 @@ const Home = () => {
                     title="User Research"
                   />
                   <h3 className="text-[24px] lg:text-[34px]">User Research</h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     Gain actionable insights into user needs and behaviors to
                     build products people love.
                   </p>
@@ -376,7 +376,7 @@ const Home = () => {
                   <h3 className="text-[24px] lg:text-[34px]">
                     Software Development
                   </h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     From concept to deployment, we develop tailored software
                     applications that solve your unique challenges.
                   </p>
@@ -397,7 +397,7 @@ const Home = () => {
                   <h3 className="text-[24px] lg:text-[34px]">
                     Project Maintenance
                   </h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     We bring order to chaos, ensuring your projects are
                     completed successfully and efficiently.
                   </p>
@@ -416,7 +416,7 @@ const Home = () => {
                   <h3 className="text-[24px] lg:text-[34px]">
                     Web Development
                   </h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     We build modern, responsive websites that deliver
                     exceptional user experiences and drive results.
                   </p>
@@ -433,7 +433,7 @@ const Home = () => {
                     title="Branding"
                   />
                   <h3 className="text-[24px] lg:text-[34px]">Branding</h3>
-                  <p className="text-[13px] lg:text-[18px] font-thin">
+                  <p className="text-[13px] lg:text-[18px] font-light text-[#6e6e6e]">
                     We help you define your brand story, create a consistent
                     brand identity, and connect with your target audience.
                   </p>

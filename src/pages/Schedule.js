@@ -54,10 +54,10 @@ const Schedule = () => {
             </h2>
           </Marquee>
 
-          <p className="text-[20px] text-center font-thin">
+          <p className="text-[20px] text-center font-light text-[#6e6e6e]">
             From pixels to profits unlock your business potential. Schedule a
             call today or mail us on{" "}
-            <a href="mailto:hello@hepta.lk" className="font-medium rounded">
+            <a href="mailto:hello@hepta.lk" className="font-medium rounded text-black">
               hello@hepta.lk
             </a>
           </p>
