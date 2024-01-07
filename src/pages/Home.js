@@ -113,7 +113,7 @@ const Home = () => {
             <h1>
               <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-left">
                 <h2
-                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  className="text-[85px] my-4 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
                   data-aos="fade-right"
                 >
                   Turn <span className="font-medium text-black">your </span>
@@ -127,7 +127,7 @@ const Home = () => {
               ></div>
               <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-right">
                 <h2
-                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  className="text-[85px] my-4 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
                   data-aos="fade-left"
                 >
                   <span className="font-medium text-black">ideas</span> into
@@ -140,7 +140,7 @@ const Home = () => {
               ></div>
               <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-left">
                 <h2
-                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin md:flex gap-8 lg:gap-16"
+                  className="text-[85px] my-4 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin md:flex gap-8 lg:gap-16"
                   data-aos="fade-right"
                 >
                   <span className="font-medium text-black"> reality</span>{" "}
