@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23a9fd92.css",
-    "main.js": "/static/js/main.11015c99.js",
+    "main.css": "/static/css/main.db8f6c53.css",
+    "main.js": "/static/js/main.71473a9f.js",
     "static/js/787.5b7a354f.chunk.js": "/static/js/787.5b7a354f.chunk.js",
     "static/media/rimaz-intro.mp4": "/static/media/rimaz-intro.428c62dc697c44370420.mp4",
     "static/media/Ceylon-wedding-new.png": "/static/media/Ceylon-wedding-new.43a00406e8c4a6c11443.png",
@@ -18,12 +18,12 @@
     "static/media/branding.svg": "/static/media/branding.3c5b8235d9e6a3fc1c450ffaa686de59.svg",
     "static/media/seo.svg": "/static/media/seo.957a110997bdb638532a7b02e9133299.svg",
     "static/media/software.svg": "/static/media/software.0aa1ee3c57f8d1e65c2ebce777a17cad.svg",
-    "main.23a9fd92.css.map": "/static/css/main.23a9fd92.css.map",
-    "main.11015c99.js.map": "/static/js/main.11015c99.js.map",
+    "main.db8f6c53.css.map": "/static/css/main.db8f6c53.css.map",
+    "main.71473a9f.js.map": "/static/js/main.71473a9f.js.map",
     "787.5b7a354f.chunk.js.map": "/static/js/787.5b7a354f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23a9fd92.css",
-    "static/js/main.11015c99.js"
+    "static/css/main.db8f6c53.css",
+    "static/js/main.71473a9f.js"
   ]
 }
