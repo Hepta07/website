@@ -104,7 +104,7 @@ const Home = () => {
         />
       </a>
       <div>
-        <section className="hero mx-auto w-screen mb-30 lg:mb-40 h-screen py-12 md:py-0 md:h-auto">
+        <section className="hero mx-auto w-screen mb-30 lg:mb-40 h-screen py-8 md:py-0 md:h-auto">
           <div
             id="lottie-container"
             className="absolute top-0 left-0 w-screen h-screen -z-50 opacity-30"
