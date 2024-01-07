@@ -78,3 +78,7 @@ body {
   font-size: 30px !important;
   height: fit-content;
 }
+
+header div {
+  cursor: pointer;
+}

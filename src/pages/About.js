@@ -42,7 +42,7 @@ const About = () => {
                 <h1 className="text-[55px] xl:text-[70px]">
                   Crafting joyful <br /> journeys
                 </h1>
-                <div className="text-[16px] lg:text-[20px] font-light mt-2 mb-8 text-[#6e6e6e]">
+                <div className="text-[16px] lg:text-[20px] font-light mt-2 mb-8 text-[#6e6e6e] font-light">
                   Our team at Hepta is more than just a collection of
                   individuals. We are a finely tuned orchestra melody to the
                   symphony of success. With diverse backgrounds and expertise

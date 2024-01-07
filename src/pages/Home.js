@@ -104,16 +104,16 @@ const Home = () => {
         />
       </a>
       <div>
-        <section className="hero mx-auto w-screen mb-30 lg:mb-40">
+        <section className="hero mx-auto w-screen mb-30 lg:mb-40 h-screen py-12 md:py-0 md:h-auto">
           <div
             id="lottie-container"
             className="absolute top-0 left-0 w-screen h-screen -z-50 opacity-30"
           ></div>
           <div className="xl:container mx-auto h-full">
             <h1>
-              <div className="px-10 text-[#4f4f4f] w-full">
+              <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-left">
                 <h2
-                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
                   data-aos="fade-right"
                 >
                   Turn <span className="font-medium text-black">your </span>
@@ -125,9 +125,9 @@ const Home = () => {
                   borderAnimation ? "border-animation" : ""
                 }`}
               ></div>
-              <div className="px-10 text-[#4f4f4f] w-full text-right">
+              <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-right">
                 <h2
-                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
                   data-aos="fade-left"
                 >
                   <span className="font-medium text-black">ideas</span> into
@@ -138,12 +138,13 @@ const Home = () => {
                   borderAnimation ? "border-animation" : ""
                 }`}
               ></div>
-              <div className="px-10 text-[#4f4f4f] w-full">
+              <div className="md:px-10 text-[#4f4f4f] w-full text-center md:text-left">
                 <h2
-                  className="text-[55px] my-7 lg:my-0 md:text-[120px] xl:text-[200px] font-thin"
+                  className="text-[85px] my-8 md:my-7  lg:my-0 md:text-[120px] xl:text-[200px] font-thin md:flex gap-8 lg:gap-16"
                   data-aos="fade-right"
                 >
-                  <span className="font-medium text-black"> reality</span> today
+                  <span className="font-medium text-black"> reality</span>{" "}
+                  <span className="hidden md:block">today</span>
                 </h2>
               </div>
               <div
@@ -224,15 +225,17 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up"
             >
-              <img
-                loading="lazy"
-                src={require("../assets/img/Ceylon-Wedding.png")}
-                alt="Ceylon Wedding"
-                className="lg:border-r-2 lg:border-r-[#dddddd] lg:pr-10 w-[180px] xl:w-[250px]"
-                title="Ceylon Wedding"
-              />
+              <a href="https://ceylonwedding.com/" target="_blank">
+                <img
+                  loading="lazy"
+                  src={require("../assets/img/Ceylon-Wedding.png")}
+                  alt="Ceylon Wedding"
+                  className="lg:border-r-2 lg:border-r-[#dddddd] lg:pr-10"
+                  title="Ceylon Wedding"
+                />
+              </a>
               <div className=" pt-10 lg:pt-0 lg:pl-10">
-                <p className="text-[16px]">
+                <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e]">
                   Ceylon Wedding, recognizing the importance of an outstanding
                   user experience for its community, has chosen Hepta, to create
                   a cutting-edge web application. This strategic partnership
@@ -248,7 +251,7 @@ const Home = () => {
         </section>
 
         <div
-          className="media-element container mx-auto relative"
+          className="media-element w-screen mx-auto relative"
           data-aos="fade-up"
           onClick={handleMediaElementClick}
           onDrag={handleMediaElementClick}
