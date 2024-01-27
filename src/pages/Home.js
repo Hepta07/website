@@ -156,22 +156,22 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="pb-10 my-20 px-4 xl:px-0">
+        {/* <section className="pb-10 my-20 px-4 xl:px-0">
           <div className="container mx-auto">
             <div class="flex justify-around items-center">
               <div class="has-tooltip">
                 <img
                   loading="lazy"
                   src={require("../assets/img/Ceylon-Wedding.png")}
-                  className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
+                  className="w-[100px] sm:w-[180px] lg:w-[300px] opacity-30 hover:opacity-100"
                   alt="Ceylon Wedding"
                   title="Ceylon Wedding"
                 />
-                <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
+                <span class="ml-24 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
                 </span>
-              </div>
-              <div class="has-tooltip">
+              </div> */}
+        {/* <div class="has-tooltip">
                 <img
                   loading="lazy"
                   src={require("../assets/img/Royal Enfield.png")}
@@ -182,22 +182,22 @@ const Home = () => {
                 <span class="ml-10 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
                 </span>
-              </div>
-              <div class="has-tooltip">
+              </div> */}
+        {/* <div class="has-tooltip">
                 <img
                   loading="lazy"
-                  src={require("../assets/img/yarn-logo.jpg")}
-                  className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
+                  src={require("../assets/img/yarn-logo.png")}
+                  className="w-[250px] sm:w-[180px] lg:w-[550px] opacity-30 hover:opacity-100"
                   alt="Yarn Clothing"
                   title="Yarn Clothing"
                 />
-                <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
+                <span class="ml-48 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
                 </span>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="my-20 px-4 xl:px-0">
           <Marquee
@@ -220,22 +220,73 @@ const Home = () => {
             </h2>
           </Marquee>
 
+          <div className="container mx-auto mb-20 mt-24">
+            <div
+              className="project-info lg:flex items-center mb-20"
+              data-aos="fade-up "
+            >
+              <a href="https://yarnclothing.co/" target="_blank">
+              <img
+                  loading="lazy"
+                  src={require("../assets/img/Yarn-new.png")}
+                  alt="Yarn Clothing Preview"
+                  className="lg:pr-20"
+                  title="Yarn Clothing"
+                />
+              </a>
+              <div className=" pt-10 lg:pt-0 lg:-ml-2">
+              <a href="https://yarnclothing.co/" target="_blank">
+                <img
+                  loading="lazy"
+                  src={require("../assets/img/yarn-logo.png")}
+                  alt="Yarn Clothing"
+                  className="lg:pr-10"
+                  title="Yarn Clothing"
+                />
+                </a>
+                <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e] mb-4">
+                  Experience the digital makeover by Hepta on Yarn Clothing's
+                  website! Bringing it up to par with industry trends, we've
+                  crafted a sleek, user-friendly platform that seamlessly
+                  mirrors the elegance of Yarn's fashion. Explore the enhanced
+                  Yarn site – a collaborative effort by Hepta, where simplicity
+                  intertwines with sophistication for a delightful online
+                  journey!
+                </p>
+                <a
+                  href=""
+                  className="font-light hover:text-[#5d98ff] text-[28px]"
+                >
+                  Learn more <span className="">&#8594;</span>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="container mx-auto my-20">
             <div
               className="project-info lg:flex items-center mb-20"
-              data-aos="fade-up"
+              data-aos="fade-up "
             >
+            <a href="https://ceylonwedding.com/" target="_blank">
+              <img
+                  loading="lazy"
+                  src={require("../assets/img/Ceylon-wedding-new.png")}
+                  alt="Ceylon Wedding Preview"
+                  className="lg:pr-10 "
+                  title="Ceylon Wedding"
+                />
+                </a>
+              <div className=" pt-10 lg:pt-0 lg:pl-10">
               <a href="https://ceylonwedding.com/" target="_blank">
                 <img
                   loading="lazy"
                   src={require("../assets/img/Ceylon-Wedding.png")}
                   alt="Ceylon Wedding"
-                  className="lg:border-r-2 lg:border-r-[#dddddd] lg:pr-10"
+                  className="lg:w-[500px] lg:pr-10 mb-10"
                   title="Ceylon Wedding"
                 />
               </a>
-              <div className=" pt-10 lg:pt-0 lg:pl-10">
-                <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e]">
+                <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e] mb-4">
                   Ceylon Wedding, recognizing the importance of an outstanding
                   user experience for its community, has chosen Hepta, to create
                   a cutting-edge web application. This strategic partnership
@@ -245,12 +296,19 @@ const Home = () => {
                   experience for users throughout their wedding planning
                   journey.
                 </p>
+
+                <a
+                  href=""
+                  className="font-light hover:text-[#5d98ff] text-[28px]"
+                >
+                  Learn more <span className="">&#8594;</span>
+                </a>
               </div>
             </div>
-          </div>
-        </section>
 
-        <div
+          </div>
+
+          {/* <div
           className="media-element w-screen mx-auto relative"
           data-aos="fade-up"
           onClick={handleMediaElementClick}
@@ -278,7 +336,9 @@ const Home = () => {
             currentPercentPosition={25}
             withResizeFeel={true}
           />
-        </div>
+        </div> */}
+
+        </section>
 
         <section className="bg-[#131313] text-[#fff] font-thin">
           <div className="container text-[55px] px-4 lg:px-10 xl:px-0 lg:text-[80px] xl:text-[120px] mx-auto py-40 ">

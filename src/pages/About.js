@@ -70,40 +70,43 @@ const About = () => {
         </section>
 
         <section className="pb-10 my-20 px-4 xl:px-0">
-          <div className="container mx-auto">
+        <div className="container mx-auto">
             <div class="flex justify-around items-center">
               <div class="has-tooltip">
                 <img
+                  loading="lazy"
                   src={require("../assets/img/Ceylon-Wedding.png")}
-                  className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
+                  className="w-[100px] sm:w-[180px] lg:w-[300px] opacity-30 hover:opacity-100"
                   alt="Ceylon Wedding"
                   title="Ceylon Wedding"
                 />
-                <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
+                {/* <span class="ml-24 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
-                </span>
+                </span> */}
               </div>
-              <div class="has-tooltip">
+              {/* <div class="has-tooltip">
                 <img
+                  loading="lazy"
                   src={require("../assets/img/Royal Enfield.png")}
                   className="invert w-[100px] sm:w-[180px] lg:w-[250px] opacity-25 hover:opacity-100"
                   alt="Royal Enfield"
-                  title="Royal Enfield"
+                  title="Royale Enfield LK"
                 />
                 <span class="ml-10 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
                 </span>
-              </div>
+              </div> */}
               <div class="has-tooltip">
                 <img
-                  src={require("../assets/img/yarn-logo.jpg")}
-                  className="w-[100px] sm:w-[180px] lg:w-[250px] opacity-30 hover:opacity-100"
+                  loading="lazy"
+                  src={require("../assets/img/yarn-logo.png")}
+                  className="w-[250px] sm:w-[180px] lg:w-[550px] opacity-30 hover:opacity-100"
                   alt="Yarn Clothing"
                   title="Yarn Clothing"
                 />
-                <span class="ml-14 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
+                {/* <span class="ml-48 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
                   Work in progress
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
