@@ -41,6 +41,10 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const swipeAnimationContainer = document.getElementById(
       "swipe-lottie-container"
     );
@@ -226,7 +230,7 @@ const Home = () => {
               data-aos="fade-up "
             >
               <a href="https://yarnclothing.co/" target="_blank">
-              <img
+                <img
                   loading="lazy"
                   src={require("../assets/img/Yarn-new.png")}
                   alt="Yarn Clothing Preview"
@@ -235,14 +239,14 @@ const Home = () => {
                 />
               </a>
               <div className=" pt-10 lg:pt-0 lg:-ml-2">
-              <a href="https://yarnclothing.co/" target="_blank">
-                <img
-                  loading="lazy"
-                  src={require("../assets/img/yarn-logo.png")}
-                  alt="Yarn Clothing"
-                  className="lg:pr-10"
-                  title="Yarn Clothing"
-                />
+                <a href="https://yarnclothing.co/" target="_blank">
+                  <img
+                    loading="lazy"
+                    src={require("../assets/img/yarn-logo.png")}
+                    alt="Yarn Clothing"
+                    className="lg:pr-10"
+                    title="Yarn Clothing"
+                  />
                 </a>
                 <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e] mb-4">
                   Experience the digital makeover by Hepta on Yarn Clothing's
@@ -267,25 +271,25 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up "
             >
-            <a href="https://ceylonwedding.com/" target="_blank">
-              <img
+              <a href="https://ceylonwedding.com/" target="_blank">
+                <img
                   loading="lazy"
                   src={require("../assets/img/Ceylon-wedding-new.png")}
                   alt="Ceylon Wedding Preview"
                   className="lg:pr-10 "
                   title="Ceylon Wedding"
                 />
-                </a>
-              <div className=" pt-10 lg:pt-0 lg:pl-10">
-              <a href="https://ceylonwedding.com/" target="_blank">
-                <img
-                  loading="lazy"
-                  src={require("../assets/img/Ceylon-Wedding.png")}
-                  alt="Ceylon Wedding"
-                  className="lg:w-[500px] lg:pr-10 mb-10"
-                  title="Ceylon Wedding"
-                />
               </a>
+              <div className=" pt-10 lg:pt-0 lg:pl-10">
+                <a href="https://ceylonwedding.com/" target="_blank">
+                  <img
+                    loading="lazy"
+                    src={require("../assets/img/Ceylon-Wedding.png")}
+                    alt="Ceylon Wedding"
+                    className="lg:w-[500px] lg:pr-10 mb-10"
+                    title="Ceylon Wedding"
+                  />
+                </a>
                 <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e] mb-4">
                   Ceylon Wedding, recognizing the importance of an outstanding
                   user experience for its community, has chosen Hepta, to create
@@ -298,14 +302,16 @@ const Home = () => {
                 </p>
 
                 <a
-                  href=""
+                  href="#/case-studies/ceylon-wedding"
                   className="font-light hover:text-[#5d98ff] text-[28px]"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
                 >
                   Learn more <span className="">&#8594;</span>
                 </a>
               </div>
             </div>
-
           </div>
 
           {/* <div
@@ -337,7 +343,6 @@ const Home = () => {
             withResizeFeel={true}
           />
         </div> */}
-
         </section>
 
         <section className="bg-[#131313] text-[#fff] font-thin">
