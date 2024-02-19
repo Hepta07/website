@@ -186,7 +186,12 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up "
             >
-              <a href="#/case-studies/yarn-clothing">
+              <a
+                href="#/case-studies/yarn-clothing"
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
                 <img
                   loading="lazy"
                   src={require("../assets/img/Yarn-new.png")}
@@ -203,6 +208,9 @@ const Home = () => {
                     alt="Yarn Clothing"
                     className="lg:pr-10"
                     title="Yarn Clothing"
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                    }}
                   />
                 </a>
                 <p className="text-[16px] md:text-[18px] font-light text-[#6e6e6e] mb-4">
@@ -217,6 +225,9 @@ const Home = () => {
                 <a
                   href="#/case-studies/yarn-clothing"
                   className="font-light hover:text-[#5d98ff] text-[28px]"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
                 >
                   Learn more <span className="">&#8594;</span>
                 </a>
@@ -228,7 +239,12 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up "
             >
-              <a href="#/case-studies/ceylon-wedding">
+              <a
+                href="#/case-studies/ceylon-wedding"
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+              >
                 <img
                   loading="lazy"
                   src={require("../assets/img/Ceylon-wedding-new.png")}
@@ -238,7 +254,12 @@ const Home = () => {
                 />
               </a>
               <div className=" pt-10 lg:pt-0 lg:pl-10">
-                <a href="#/case-studies/ceylon-wedding">
+                <a
+                  href="#/case-studies/ceylon-wedding"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
                   <img
                     loading="lazy"
                     src={require("../assets/img/Ceylon-Wedding.png")}
