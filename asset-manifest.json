@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e391d2c.css",
-    "main.js": "/static/js/main.2d5c95a8.js",
+    "main.css": "/static/css/main.525fee06.css",
+    "main.js": "/static/js/main.49278ba6.js",
     "static/js/787.5b7a354f.chunk.js": "/static/js/787.5b7a354f.chunk.js",
     "static/media/CW-PP3.gif": "/static/media/CW-PP3.fccd54a5200daac6cec2.gif",
     "static/media/CW-PP1.gif": "/static/media/CW-PP1.2dc8c0654464627c6592.gif",
     "static/media/CW-PP2.gif": "/static/media/CW-PP2.20897ffef3cf44d36a4f.gif",
     "static/media/rimaz-intro.mp4": "/static/media/rimaz-intro.428c62dc697c44370420.mp4",
+    "static/media/YC-PP2.gif": "/static/media/YC-PP2.1c57fb59eabe73ff2731.gif",
+    "static/media/YC-PP1.gif": "/static/media/YC-PP1.289ac2c14e8b79a1e818.gif",
     "static/media/Ceylon-wedding-new.png": "/static/media/Ceylon-wedding-new.43a00406e8c4a6c11443.png",
     "static/media/user-ceylonwedding.png": "/static/media/user-ceylonwedding.459c468f59d7bb08bc27.png",
     "static/media/vendor-ceylonwedding.png": "/static/media/vendor-ceylonwedding.e4bf79851888a6bd2bee.png",
+    "static/media/YC-PP3.gif": "/static/media/YC-PP3.ffabab9be7898461f473.gif",
     "static/media/Ceylon-wedding-old.png": "/static/media/Ceylon-wedding-old.114974dfce755f877e5f.png",
     "static/media/Yarn-new.png": "/static/media/Yarn-new.9d63f973088f897406a5.png",
+    "static/media/seo-yarn.png": "/static/media/seo-yarn.58cce4009f042aec60cb.png",
+    "static/media/network-yarn.png": "/static/media/network-yarn.e04d8aff6d4213fc235e.png",
     "static/media/mobile-2.png": "/static/media/mobile-2.34105109362fe62bd2e8.png",
     "static/media/mobile-4.png": "/static/media/mobile-4.590472d4c5858996fa2c.png",
     "static/media/mobile-7.png": "/static/media/mobile-7.5021d99bcb4fa49ffa8c.png",
@@ -36,12 +41,12 @@
     "static/media/branding.svg": "/static/media/branding.3c5b8235d9e6a3fc1c450ffaa686de59.svg",
     "static/media/seo.svg": "/static/media/seo.957a110997bdb638532a7b02e9133299.svg",
     "static/media/software.svg": "/static/media/software.0aa1ee3c57f8d1e65c2ebce777a17cad.svg",
-    "main.0e391d2c.css.map": "/static/css/main.0e391d2c.css.map",
-    "main.2d5c95a8.js.map": "/static/js/main.2d5c95a8.js.map",
+    "main.525fee06.css.map": "/static/css/main.525fee06.css.map",
+    "main.49278ba6.js.map": "/static/js/main.49278ba6.js.map",
     "787.5b7a354f.chunk.js.map": "/static/js/787.5b7a354f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e391d2c.css",
-    "static/js/main.2d5c95a8.js"
+    "static/css/main.525fee06.css",
+    "static/js/main.49278ba6.js"
   ]
 }
