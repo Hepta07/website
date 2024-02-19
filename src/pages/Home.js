@@ -160,49 +160,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* <section className="pb-10 my-20 px-4 xl:px-0">
-          <div className="container mx-auto">
-            <div class="flex justify-around items-center">
-              <div class="has-tooltip">
-                <img
-                  loading="lazy"
-                  src={require("../assets/img/Ceylon-Wedding.png")}
-                  className="w-[100px] sm:w-[180px] lg:w-[300px] opacity-30 hover:opacity-100"
-                  alt="Ceylon Wedding"
-                  title="Ceylon Wedding"
-                />
-                <span class="ml-24 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
-                  Work in progress
-                </span>
-              </div> */}
-        {/* <div class="has-tooltip">
-                <img
-                  loading="lazy"
-                  src={require("../assets/img/Royal Enfield.png")}
-                  className="invert w-[100px] sm:w-[180px] lg:w-[250px] opacity-25 hover:opacity-100"
-                  alt="Royal Enfield"
-                  title="Royale Enfield LK"
-                />
-                <span class="ml-10 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
-                  Work in progress
-                </span>
-              </div> */}
-        {/* <div class="has-tooltip">
-                <img
-                  loading="lazy"
-                  src={require("../assets/img/yarn-logo.png")}
-                  className="w-[250px] sm:w-[180px] lg:w-[550px] opacity-30 hover:opacity-100"
-                  alt="Yarn Clothing"
-                  title="Yarn Clothing"
-                />
-                <span class="ml-48 tooltip shadow-lg p-2 rounded-[10px] bg-gray-100 mt-2 mx-auto">
-                  Work in progress
-                </span>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         <section className="my-20 px-4 xl:px-0">
           <Marquee
             play={true}
@@ -229,7 +186,7 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up "
             >
-              <a href="https://yarnclothing.co/" target="_blank">
+              <a href="#/case-studies/yarn-clothing">
                 <img
                   loading="lazy"
                   src={require("../assets/img/Yarn-new.png")}
@@ -239,7 +196,7 @@ const Home = () => {
                 />
               </a>
               <div className=" pt-10 lg:pt-0 lg:-ml-2">
-                <a href="https://yarnclothing.co/" target="_blank">
+                <a href="#/case-studies/yarn-clothing">
                   <img
                     loading="lazy"
                     src={require("../assets/img/yarn-logo.png")}
@@ -258,7 +215,7 @@ const Home = () => {
                   journey!
                 </p>
                 <a
-                  href=""
+                  href="#/case-studies/yarn-clothing"
                   className="font-light hover:text-[#5d98ff] text-[28px]"
                 >
                   Learn more <span className="">&#8594;</span>
@@ -271,7 +228,7 @@ const Home = () => {
               className="project-info lg:flex items-center mb-20"
               data-aos="fade-up "
             >
-              <a href="https://ceylonwedding.com/" target="_blank">
+              <a href="#/case-studies/ceylon-wedding">
                 <img
                   loading="lazy"
                   src={require("../assets/img/Ceylon-wedding-new.png")}
@@ -281,7 +238,7 @@ const Home = () => {
                 />
               </a>
               <div className=" pt-10 lg:pt-0 lg:pl-10">
-                <a href="https://ceylonwedding.com/" target="_blank">
+                <a href="#/case-studies/ceylon-wedding">
                   <img
                     loading="lazy"
                     src={require("../assets/img/Ceylon-Wedding.png")}
